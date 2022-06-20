@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.form,.btn{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 50px;
+  padding: 25px;
+  align-items: center;
+  
+}
+
+.form input,select{
+  align-items: center;
+  font-size: large;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  width: 25%;
+  height: 1.3rem;
+}
+.gender{
+   width: 26.8%;
+   height: 2.6rem;
+}
+.btn{
+  width: 27%;
+  height: 2rem;
+}
+.btn:hover{
+  cursor: pointer;
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
